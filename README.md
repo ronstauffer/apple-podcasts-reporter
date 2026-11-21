@@ -1,5 +1,7 @@
 # Apple Podcasts Connect Reporter (macOS Setup)
 
+<a href="https://colophon.md/timeline?repo=ronstauffer/apple-podcasts-reporter"><picture><source media="(prefers-color-scheme: dark)" srcset="https://colophon.md/svg/ronstauffer/apple-podcasts-reporter?theme=dark"><source media="(prefers-color-scheme: light)" srcset="https://colophon.md/svg/ronstauffer/apple-podcasts-reporter"><img alt="Timeline of how Apple Podcasts Connect Reporter was made" src="https://colophon.md/svg/ronstauffer/apple-podcasts-reporter"></picture></a>
+
 A working setup for Apple's [Reporter](https://podcastsconnect.apple.com/analytics) CLI tool (v2.2) on macOS, including fixes for two issues that prevent it from running on modern Java:
 
 1. **TLS compatibility** — Java 17+ disables cipher suites that Apple's server requires. A custom security config re-enables them.
