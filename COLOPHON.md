@@ -11,7 +11,7 @@ elsewhere.
 | | |
 |---|---|
 | Project | Apple Podcasts Connect Reporter (macOS Setup) |
-| Convention | [COLOPHON.md](https://colophon.md) v1.2.4 |
+| Convention | [COLOPHON.md](https://colophon.md) v1.3 |
 | Primary builder | Unknown |
 | Surface | Unknown |
 | Model / mode | Unknown |
@@ -19,7 +19,7 @@ elsewhere.
 | Review | Unknown |
 | Directed by | Ron Stauffer (Git author and committer of every commit, and owner of the repository; Observed) |
 | Human owner | Ron Stauffer; direction, review, and testing role not established |
-| Era | 2026-03-03 to 2026-11-21 (UTC). Code commits on 2026-03-03; later dates are colophon work. |
+| Era | 2026-03-03 to 2026-11-22 (UTC). Code commits on 2026-03-03; later dates are colophon work. |
 | Status | Unknown |
 
 ## How the work was done
@@ -40,6 +40,7 @@ Dates are UTC.
 
 | Date | Builder | Role | Surface | Model / mode | Contribution | Evidence |
 |---|---|---|---|---|---|---|
+| 2026-11-22 | Code Monkey (Grok Bot) | built | Grok Bot desktop app, hosted agent | Unknown | Upgraded COLOPHON.md to [COLOPHON.md](https://colophon.md) v1.3 and added the self-contained Colophon snippet to AGENTS.md (replaced the older Colophon snippet in the existing AGENTS.md). Review of this change is pending Ron. Local session logs were not checked. | this pull request |
 | 2026-11-21 | Grok Bot | updated | Hosted agent running `git` and `gh` on the owner's MacBook Pro | Unknown | Upgraded this colophon to COLOPHON.md v1.2.4: `Convention` row, UTC dates, live timeline, `AGENTS.md` with the Colophon snippet, and history caught up from GitHub | `git log -- COLOPHON.md` |
 | 2026-11-17 | Ron Stauffer (Git identity) | approved | GitHub merge of PR #1 | Not applicable | Merged [PR #1](https://github.com/ronstauffer/apple-podcasts-reporter/pull/1) (forensic reconstruction of this colophon) | Merge commit `8c8332d`; merged by `ronstauffer` |
 | 2026-11-05 | Claude Code | built | Browser or cloud workspace (Claude Code on the web) | Not recorded in this file | Forensic reconstruction of this colophon; no other files changed | `git log -- COLOPHON.md` |
@@ -76,3 +77,5 @@ Dates are UTC.
   trailer); its setting is Unknown. The row is left as written.
 - `AGENTS.md` was added at the root in the v1.2.4 upgrade; the "Not found"
   note above describes the repository as of 2026-11-05.
+
+This 2026-11-22 v1.3 upgrade inspected GitHub history (commits, pull requests, and releases) only. Local session logs were not checked.
